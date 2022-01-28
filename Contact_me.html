@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h3>Contact Details</h3>
+    <ul>
+      <li>My address</li>
+      <li>Phone No. : 9904027853</li>
+      <li>Email : himesh2489@gmail.com</li>
+    </ul>
+    <hr>
+    <form action="mailto:himesh2489@gmail.com" method="post" enctype="text/plain">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="yourName" value=""  maxlength="64" size="64" placeholder="UPPERCASE">
+      </div>
+      <br>
+      <div>
+        <label for="email">Email Id:</label>
+        <input type="email" id="email" name="yourEmail" pattern=".+@gmail\.com" placeholder="username@gmail.com" size="64" maxlength="64">
+      </div>
+      <br>
+      <div>
+        <label for="text">Your Message:</label>
+        <textarea name="text" name="yourMessage" rows="8" cols="50"></textarea>
+      </div>
+      <br>
+      <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" minlength="8" required placeholder="Minmum 8 letters">
+      </div>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
